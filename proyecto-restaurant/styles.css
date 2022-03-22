@@ -1,0 +1,411 @@
+/* Google fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Work+Sans&display=swap");
+
+:root {
+  --light: #d0dad7;
+  --medium: #a3c91f;
+  --dark: #282925;
+  --darker: #161313;
+  --mediumdark: linear-gradient(220.55deg, #ffd439 0%, #ff7a00 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner style */
+header {
+  background-image: url("./img/img5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: var(--light);
+  margin-top: -20px;
+}
+
+.navbar {
+  font-family: "Quicksand", "sans-serif";
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 23px;
+  padding-top: 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--light);
+}
+
+.navbar ul li a:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.main-banner {
+  text-align: center;
+  margin-top: 16rem;
+}
+
+.main-banner h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 1.3em;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6em;
+  padding: 30px;
+  font-weight: bold;
+  opacity: 0.9;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.info .hourwork {
+  display: flex;
+  justify-content: flex-start;
+  line-height: 20px;
+}
+
+.hourwork .weekend {
+  margin-left: 20px;
+}
+
+.hourwork p {
+  font-size: 12px;
+}
+
+.info .direction {
+  text-align: right;
+}
+
+/* about Us section style */
+
+.about {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 110vh;
+  margin-left: 4em;
+}
+
+.about .container {
+  margin-left: 40px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+.about .container h2 {
+  margin-top: 30px;
+  font-size: 36px;
+  color: var(--medium);
+}
+
+.about .container p {
+  color: var(--dark);
+  margin-top: 20px;
+  line-height: 2em;
+}
+
+.about .container button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid var(--medium);
+  border-radius: 30px;
+  cursor: pointer;
+  background-image: linear-gradient(220.55deg, #ffd439 0%, #ff7a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.about .container button:hover {
+  padding: 15px 25px;
+  transition: 0.5s;
+  opacity: 0.9;
+}
+
+.pic img {
+  width: 20em;
+  height: 500px;
+  padding-top: 90px;
+  margin: 20px;
+}
+
+/* section 3 style */
+.menu {
+  display: flex;
+  background-color: var(--light);
+  height: 600px;
+}
+
+.menu-info h2 {
+  text-align: center;
+  color: var(--medium);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu-info p {
+  font-size: 16px;
+  line-height: 2rem;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+.menu-photo {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.menu-photo #hamburguesas {
+  background-image: url("./img/img9.jpg");
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-photo #pizza {
+  background-image: url("./img/img3.jpg");
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-photo #asados {
+  background-image: url("./img/img4.jpg");
+  width: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-photo a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.menu-photo a p {
+  position: relative;
+  top: 350px;
+}
+
+.main-ig h1 {
+  text-align: center;
+  color: var(--medium);
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.social-ig .ig-feed {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.social-ig .ig-feed a img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Section 3 styles */
+
+.beer-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--light);
+}
+
+.img-bar {
+  margin-left: 4em;
+}
+
+.img-bar img {
+  height: 300px;
+}
+
+.caption {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  line-height: 2rem;
+}
+
+.container h1 {
+  color: var(--medium);
+  padding: 20px;
+}
+
+.btn-menu button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid var(--medium);
+  font-weight: bolder;
+  border-radius: 30px;
+  cursor: pointer;
+  background-image: linear-gradient(220.55deg, #ffd439 0%, #ff7a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-menu button:hover {
+  padding: 15px 25px;
+  transition: 0.5s;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+/* section 5 */
+.signup-form {
+  height: 500px;
+  background: linear-gradient(220.55deg, #5d85a6 0%, #0e2c5e 100%);
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.signup-form h1 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  color: var(--light);
+  margin-top: 20px; 
+}
+
+.container {
+  width: 100%;
+  max-width: 730px;
+  margin: auto;
+  position: relative;
+  margin-top: 20px;
+  
+}
+
+.box-text {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  background-color: #5d85a6;
+  height: 380px;
+ 
+}
+
+.box-text div{
+    margin: 100px 40px;
+    color: var(--light)
+}
+
+.box-text div p, .box-text div button{
+    margin-top: 10px;
+}
+
+.box-text button{
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid var(--medium);
+    border-radius: 30px;
+    cursor: pointer;
+    color: #ffffff;
+    background: none;
+    outline: none;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 10px;
+    
+}
+
+.box-text button:hover{
+    padding: 15px 25px;
+    background: #ffffff;
+    color: #5d85a6;
+    transition: 0.5s;
+    border: none;
+}
+
+.container-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    position: relative;
+    top: -200px;
+    left: 10px;
+    transition: left 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275)
+    
+}
+
+.container-register form{
+    width: 100%;
+    padding: 20px 20px;
+    background: #0e2c5e;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.container-register form h2{
+    text-align: center;
+    font-size: 24px;
+    color: var(--light);
+    margin-bottom: 10px;
+}
+
+
+.container-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 5px;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: #092047;
+    border-radius: 30px;
+    color: var(--light)
+}
+
+
+.container-register form button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid var(--medium);
+    border-radius: 30px;
+    cursor: pointer;
+    color: #ffffff;
+    background: none;
+    outline: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+
+.container-register form button:hover{
+    padding: 15px 25px;
+    background: #ffffff;
+    color: #5d85a6;
+    transition: 0.5s;
+    border: none
+}
+.register-form{
+    display: none;
+}
+
+.login-form{
+    height: 368px;
+    padding: 200px;
+    
+}
+
